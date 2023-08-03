@@ -93,7 +93,7 @@ experience:
       Install, configure and operate a Zabbix monitoring system to collect AWS infrastructure status and deliver notifications via PagerDuty and Slack integrations.
       Design and implement a new ETL system from the scratch using Node.js for the extraction step (over AWS Elastic Beanstalk), Apache Spark (over AWS EMR) for transformations and a Python application for loading. 
       Design and implement CI and CD pipelines for the project components using Jenkins and Docker containers, also infrastructure provisioning Terraform scripts. 
-      Install, configure and operate a ETL jobs orchestration and scheduling system using Apache Airflo
+      Install, configure and operate a ETL jobs orchestration and scheduling system using Apache Airflow.
     technologies_used: | 
       AWS, Node.js, Python, Airflow, Zabbix, Spark
 
