@@ -1,108 +1,144 @@
-name: John Doe
+name: Bruno Bonagura
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
+  email: bbonagura9@gmail.com
+  github: bbonagura9
+  linkedin: bruno-bonagura
   phone: 
   gitlab: 
   twitter: 
 
 languages:
+  - idiom: Portuguese
   - idiom: English
-  - idiom: Russian
-  - idiom: French
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: BSc in Computer Engineering
+    time: 2008-2012
+    university: Instituto Tecnológico de Aeronáutica
 
 skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
   - category: DevOps
     skill:
       - Docker
-      - Kubernetes 
+      - Kubernetes
+      - Terraform
+      - AWS
+      - CircleCI
+      - Bash
+      - Prometheus
+      - Helm
+      - Kustomize
+  - category: Data Engineering
+    skill: 
+      - Airflow
+      - Spark
+  - category: Backend
+    skill: 
+      - Python
+      - Node.js
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  I am a Computer Engineer, having graduated from the Instituto Tecnológico de Aeronáutica (ITA). 
+  I have developed a specialized focus on DevOps, with an emphasis on cloud infrastructure, 
+  particularly Amazon Web Services (AWS). My skills include the ability to automate processes 
+  and monitor systems to ensure optimal performance. I also have extensive knowledge and 
+  experience in backend development, specifically utilizing Python.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: DevOps Engineer
+    time: 2021-2023
+    company: Inspira Tecnologia
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Provide AWS EKS Kubernetes clusters for microservices systems, along with Prometheus stack (Grafana) for monitoring capabilities with a full working alerting system via Slack.
+      Create CI/CD pipelines for microservices on Kubernetes.
+      Implement a data importing system on Django and Celery.
+      Creating Infrastructure as Code for Django and Celery services on Azure using Terraform.
+      Monitoring and troubleshooting of services.
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      AWS, Terraform, Kubernetes, Grafana, Prometheus, Docker, Python, Node.js, Django, Celery
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: DevOps Engineer
+    time: 2019-2021
+    company: Bionexo
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Implement infrastructure as code on AWS using Terraform for the data lake set of tools, including Airflow, Spark, Metabase.
+      Design and implement a solution for manual upload of data sets directly to the data lake.
+      Implement web scrappers for open public data using Scrapy and orquestrate them with Airflow.
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      AWS, Terraform, Airflow, Zabbix, Grafana, CircleCI, Docker, Python, Scrapy
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
-projects:
-  - title: Cool Project 
-    link: #
+  - role: DevOps Engineer
+    time: 2018-2019
+    company: Geru
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Develop an OAuth2 Single Sign-On system using Flask.
+      Develop an OAuth2 client for Pyramid applications authentication and authorization.
+      Plan and build an Airflow infrastructure using Docker and Celery over AWS Elastic Beanstalk.
+      Plan and build an private PyPi infrastructure using pypi-cloud.
+      Automate application deployments to an OpenShift infrastructure via CircleCI.
+    technologies_used: | 
+      AWS, Kubernetes, Airflow, CircleCI, Docker, Python
 
-  - title: Cool Project 
-    link: #
+  - role: Backend Engineer
+    time: 2017-2018
+    company: BelugaDB (RevMob)
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Operate and manage an ETL system for big data, based on Node.js, developing connectors for customers data warehouses like AWS Redshift, PostgreSQL, MySQL, Google Analytics, VTEX.
+      Install, configure and operate a Zabbix monitoring system to collect AWS infrastructure status and deliver notifications via PagerDuty and Slack integrations.
+      Design and implement a new ETL system from the scratch using Node.js for the extraction step (over AWS Elastic Beanstalk), Apache Spark (over AWS EMR) for transformations and a Python application for loading. 
+      Design and implement CI and CD pipelines for the project components using Jenkins and Docker containers, also infrastructure provisioning Terraform scripts. 
+      Install, configure and operate a ETL jobs orchestration and scheduling system using Apache Airflo
+    technologies_used: | 
+      AWS, Node.js, Python, Airflow, Zabbix, Spark
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - role: Computer Engineer
+    time: 2013-2016
+    company: Força Aérea Brasileira (DECEA)
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Develop IP/SNMP status monitoring interfaces for air traffic management equipment (Radar, NavAids etc) of multiple vendors (Thales, Raytheon, Omnisys etc), using Arduino protoboard when hardware is needed for legacy equipment without factory default monitoring interfaces.
+      Install, configure, adapt and manage a Zabbix open-source monitoring system to collect the real-time status of the air traffic management equipment and intranet routers.
+      Assist the development of an operations center for technical monitoring of the air traffic management equipment by the creation of technical indicators, status alarms, reports and procedures.
+      Developed a small ticketing system for the internal issue ticket flow management. Tickets created automatically from Zabbix events (Python/Flask, Bootstrap).
+      Developed a Java back-end polling application for SNMP and other protocols monitoring, with a front-end web display (for video-wall large screen) using a SVG geographical map
+    technologies_used: | 
+      Python, Zabbix, Flask
+
+# publications:
+#   - title: Random title of paper. An interesting one.
+#     link: "#"
+#     authors: John E. Doe
+#     conference: Some conference, 2016
+#
+#   - title: Second title of paper. An interesting one too.
+#     link: "#"
+#     authors: John E. Doe
+#     conference: Some conference again, 2018
+#
+# projects:
+#   - title: Cool Project 
+#     link: #
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua.
+#
+#   - title: Cool Project 
+#     link: #
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua.
+#
+# # Volunteering
+# volunteering:
+#   - time: 2020-Present
+#     role: PR Manager
+#     company: Some random organization
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+#       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
