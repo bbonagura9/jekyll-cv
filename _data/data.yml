@@ -69,7 +69,7 @@ experience:
     details: |
       Implement infrastructure as code on AWS using Terraform for the data lake set of tools, including Airflow, Spark, Metabase.
       Design and implement a solution for manual upload of data sets directly to the data lake.
-      Implement web scrappers for open public data using Scrapy and orquestrate them with Airflow.
+      Implement web scrapers for open public data using Scrapy and orquestrate them with Airflow.
     technologies_used: | 
       AWS, Terraform, Airflow, Zabbix, Grafana, CircleCI, Docker, Python, Scrapy
 
