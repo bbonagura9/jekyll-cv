@@ -51,6 +51,14 @@ profile: |
 
 # Experience
 experience:
+  - role: Infrastructure Consultant
+    time: 2023-present
+    company: Thoughtworks
+    details: |
+      Implement an event-based AWS Continuous Compliance solution using mainly Python Lambda Functions for computation. Implement an IaC set of repositories using Terraform and CI/CD using Github Actions.
+    technologies_used: |
+      AWS, Terraform, Github actions, Docker, Python
+
   - role: DevOps Engineer
     time: 2021-2023
     company: Inspira Tecnologia
